@@ -32,7 +32,7 @@ forever(function () {
     pause(Enemy_Spawn_Delay)
 })
 forever(function () {
-    if (Enemy_Spawn_Delay > 1) {
+    if (Enemy_Spawn_Delay > 1000) {
         Enemy_Spawn_Delay += -10
         pause(100)
     }
